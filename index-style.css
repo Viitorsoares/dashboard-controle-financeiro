@@ -18,14 +18,13 @@
 body {
     display: flex;
     flex-direction: row;
-    gap: 50px;
     background-color: var(--black-color);
+    width: 100vw;
 }
 
 header {
-    background-color: #20212A;
     color: var(--color);
-    width: 280px;
+    width: 28%;
     height: 100vh;
 }
 
@@ -36,17 +35,22 @@ header img {
     margin: 40px auto 15px auto;
 }
 
+header .header-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 header h2 {
     font-size: 2rem;
     font-weight: 600;
-    text-align: center;
     color: var(--color);
 }
 
 header p {
     font-size: 1rem;
     font-weight: 200;
-    text-align: center;
     color: var(--gray-weack-color);
 }
 
@@ -67,5 +71,13 @@ nav a {
 
 nav a:hover  {
     color: var(--color);
+}
+
+
+.container {
+    width: 100%;
+    margin: 15px;
+    background-color: var(--color);
+    border-radius: 15px;
 }
 
