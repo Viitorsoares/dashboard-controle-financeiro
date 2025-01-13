@@ -24,7 +24,7 @@ body {
 
 header {
     color: var(--color);
-    width: 28%;
+    width: 25%;
     height: 100vh;
 }
 
@@ -72,12 +72,3 @@ nav a {
 nav a:hover  {
     color: var(--color);
 }
-
-
-.container {
-    width: 100%;
-    margin: 15px;
-    background-color: var(--color);
-    border-radius: 15px;
-}
-
