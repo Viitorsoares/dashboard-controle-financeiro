@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="styles/control-style.css">
+    <script src="script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,900&display=swap" rel="stylesheet">
 
     <title>Document</title>
@@ -21,17 +22,74 @@
     <main class="container">
         <section class="income container-feature">
             <div class="title">
-                <h2>Rendas Mensais</h2>
-                <button class="btn"><img src="img/adicionar-icone.ico" alt=""></button>
+                <div class="title-control">
+                    <h2>Rendas Mensais</h2>
+                    <button class="btn"><img src="img/adicionar-icone.ico" alt=""></button>
+                </div>
+
+                <div class="list-control">
+                    <div class="input-list">
+                        <label for="salário">Salário</label>
+                        <input type="number" name="salário" placeholder="R$">
+                    </div>
+                    <div class="input-list">
+                        <label for="vendas">Vendas</label>
+                        <input type="number" name="vendas" placeholder="R$">
+                    </div>
+                    <div class="input-list">
+                        <label for="dividendos">Dividendos</label>
+                        <input type="number" name="dividendos" placeholder="R$">
+                    </div>
+                    <div class="input-list">
+                        <label for="consultorias">consultorias</label>
+                        <input type="number" name="consultorias" placeholder="R$">
+                    </div>
+                </div>
+
             </div>
         </section>
 
         <section class="expenditure container-feature">
             <div class="title">
-                <h2>Despesas Mensais</h2>
-                <button class="btn"><img src="img/adicionar-icone.ico" alt=""></button>
+                <div class="title-control">
+                    <h2>Despesas Mensais</h2>
+                    <button class="btn"><img src="img/adicionar-icone.ico" alt=""></button>
+                </div>
+
+                <div class="list-control">
+                    <div class="input-list">
+                        <label for="alimentacao">Alimentação</label>
+                        <input type="number" name="alimentacao" placeholder="R$">
+                    </div>
+                    <div class="input-list">
+                        <label for="aluguel">Aluguel</label>
+                        <input type="number" name="aluguel" placeholder="R$">
+                    </div>
+                    <div class="input-list">
+                        <label for="internet">Internet</label>
+                        <input type="number" name="internet" placeholder="R$">
+                    </div>
+                    <div class="input-list">
+                        <label for="academia">Academia</label>
+                        <input type="number" name="academia" placeholder="R$">
+                    </div>
+                    <div class="input-list">
+                        <label for="credito">Cartão de Crédito</label>
+                        <input type="number" name="credito" placeholder="R$">
+                    </div>
+                    <div class="input-list">
+                        <label for="entretenimento">Entretenimento</label>
+                        <input type="number" name="entretenimento" placeholder="R$">
+                    </div>
+                    <div class="input-list">
+                        <label for="escola">Escola</label>
+                        <input type="number" name="escola" placeholder="R$">
+                    </div>
+                </div>
+
             </div>
         </section>
     </main>
+
 </body>
 </html>
